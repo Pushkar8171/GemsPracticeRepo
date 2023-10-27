@@ -11,8 +11,10 @@
   </head>
 
   <body>
-       <p class="notice"><%= notice %></p>
-       <p class="alert"><%= alert %></p>
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+    
+    <h4>you are login as : <%= current_user.email %></h4>
     <%= yield %>
   </body>
 </html>
