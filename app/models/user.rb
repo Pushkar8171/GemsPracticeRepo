@@ -9,9 +9,10 @@ class User < ApplicationRecord
          end
 
 
-         after_initalize  :set_default_user_type
+         after_initialize  :set_default_user_type
 
          private
+
          def set_default_user_type
           self.user_type ||= ''
         end
