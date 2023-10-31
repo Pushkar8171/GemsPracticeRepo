@@ -27,8 +27,7 @@ class UserDashboard < Administrate::BaseDashboard
   COLLECTION_ATTRIBUTES = %i[
     id
     email
-    encrypted_password
-    remember_created_at
+    user_type
   ].freeze
 
   # SHOW_PAGE_ATTRIBUTES
