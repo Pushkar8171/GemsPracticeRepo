@@ -75,3 +75,4 @@ end
 gem 'devise'
 gem 'cancancan'
 gem 'administrate'
+gem 'sidekiq'
